@@ -62,13 +62,39 @@ p   {
 .content {
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
 
 
 
-.content-left,.content-right {
+.content-right {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}  
+.p-first {
+    font-size: 18;
+    color: #e5e7eb;
+    margin-left: 90px;
+}
+
+
+img{
+    margin: 50px;
+    
+} 
+
+.sign-up-first-section {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
